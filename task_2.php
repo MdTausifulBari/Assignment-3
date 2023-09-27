@@ -6,6 +6,9 @@ function odd($n){
 function modify($numbers){
     $odd_number_array = array_filter($numbers, "odd");
     
+    print_r($odd_number_array);
+
+    echo "Printing resulten Array values: ";
     foreach($odd_number_array as $item){
         echo "{$item} ";
     }
